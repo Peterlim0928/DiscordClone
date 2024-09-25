@@ -1,0 +1,33 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-family: Roboto;
+  color: rgb(103, 103, 103);
+}
+
+a {
+  font-family: Roboto;
+  text-decoration: none;
+  color: rgb(57, 122, 226);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(227, 212, 174);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(238, 232, 203);
+}

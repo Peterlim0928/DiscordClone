@@ -1,0 +1,69 @@
+.server-icon-list {
+  background-color: rgb(219, 211, 156);
+  width: 72px;
+  padding: 8px 0 0 0;
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+.server-icon-button {
+  width: 48px;
+  min-height: 48px;
+  margin: 4px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(228, 221, 170);
+  transition: 0.3s;
+}
+
+.server-icon-text {
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.server-icon-button:hover {
+  border-radius: 25%;
+  background-color: rgb(233, 229, 199);
+}
+
+.discord-icon {
+  width: 27px;
+  margin: 16px;
+  cursor: pointer;
+}
+
+.server-icon {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.server-icon:hover {
+  border-radius: 25%;
+}
+
+.line {
+  width: 45%;
+  height: 2px;
+  min-height: 2px;
+  background-color: rgb(228, 221, 170);
+  margin: 4px;
+}
