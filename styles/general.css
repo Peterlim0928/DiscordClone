@@ -31,3 +31,34 @@ a:hover {
 ::-webkit-scrollbar-track {
   background-color: rgb(238, 232, 203);
 }
+
+.content {
+  display: block; /* Show content by default */
+}
+
+.error-message {
+  display: none; /* Hide message by default */
+}
+
+/* Media query for small screens */
+@media (max-width: 932px) {
+  .content {
+      display: none; /* Hide content on small screens */
+  }
+
+  .error-message {
+      display: block; /* Show message on small screens */
+  }
+}
+
+.error-message {
+  background-color: #f8d7da; /* Light red background */
+  color: #721c24; /* Dark red text */
+  border: 1px solid #f5c6cb; /* Light red border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 15px; /* Padding around the text */
+  margin: 20px; /* Margin above and below the message */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 16px; /* Font size */
+  text-align: center; /* Center text */
+}
